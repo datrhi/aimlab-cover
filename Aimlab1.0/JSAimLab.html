@@ -1,0 +1,29 @@
+<!DOCTYPE	html>
+<!--	JSBouncingBallSimple.html	-->
+<html	lang="en">
+<head>
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0" >
+		<meta	charset="utf-8">
+		<title>JavaScript Aimlab</title>
+		<link	rel="stylesheet"	href="JSAimLab.css">
+</head>
+<body>
+		<div style="clear: both">
+			<h2>JavaScript Gridshot</h2>
+			<h3 class="point">Point: <span id="point">0</span></h3>
+			<h3>Timer: <span id="timer">60</span></h3>
+			<h3 class="topScore">The highest score: <span id="topScore">0</span></h3>
+		</div>
+<!--	holder	for	container	box	-->
+		<canvas id="box"></canvas>
+		<div id="tracker"></div>
+<!--	Use	name	and	class	to	handle	more	than	one	balls	-->
+		<img	class="ball"	id="ball0"	src="images/redObject.png"	alt="ball">
+		<img	class="ball"	id="ball1"	src="images/redObject.png"	alt="ball">
+		<img	class="ball"	id="ball2"	src="images/redObject.png"	alt="ball">
+		<div class="containBtn">
+			<button id="newGame" onclick="play()">New Game</button>
+		</div>
+		<script	src="JSAimLab.js"></script>
+</body>
+</html>
